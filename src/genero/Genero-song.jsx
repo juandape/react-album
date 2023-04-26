@@ -1,16 +1,13 @@
-import './genero.css'
+import "./genero.css";
 
-function Genero (){
-
-return(
-
-    <div className='genero'>
-        <div className='genero--name'>dance</div>
-        <div className='genero--heart'></div>
+function Genero(props) {
+  const { genre } = props;
+  return (
+    <div className="genero">
+      <div className="genero--name">{genre}</div>
+      <div className="genero--heart"></div>
     </div>
-)
-
-
+  );
 }
 
-export default Genero
+export default Genero;

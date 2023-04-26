@@ -1,10 +1,10 @@
-.artist{
-    text-align: left;
-    padding-top: 5px;
+.artist {
+  text-align: left;
+  padding-top: 5px;
 }
 
-.artist--single{
-    margin-top: -40px;
-    padding-left: 3px;
-    color: rgb(152, 150, 150);
+.artist--single {
+  margin-top: -40px;
+  padding-left: 3px;
+  color: rgb(152, 150, 150);
 }

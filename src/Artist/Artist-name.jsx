@@ -1,11 +1,13 @@
-import './artist.css'
+import "./artist.css";
 
-function Artist() {
+function Artist(props) {
+  const { artistName, group } = props;
+
   return (
     <>
-      <div className='artist'>
-        <h1>Rozes</h1>
-        <p className='artist--single'>solista</p>
+      <div className="artist">
+        <h1>{artistName}</h1>
+        <p className="artist--single">{group}</p>
       </div>
     </>
   );

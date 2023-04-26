@@ -1,10 +1,12 @@
 import "./titulo.css";
 
-function Titulo() {
+function Titulo(props) {
+  const { songTl, songAge } = props;
+
   return (
     <div className="titulo">
-      <h3>Under the Grave</h3>
-      <h3 className="titulo--age">(2016)</h3>
+      <h3>{songTl}</h3>
+      <h3 className="titulo--age">{songAge}</h3>
     </div>
   );
 }

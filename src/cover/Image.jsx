@@ -1,8 +1,9 @@
-import guns from './assets/rozes.jpg';
-import './image.css';
+import "./image.css";
 
-function CoverImage() {
-  return <img src={guns} alt="guns" />;
+function CoverImage(props) {
+  const { albumImg } = props;
+
+  return <img src={albumImg} />;
 }
 
 export default CoverImage;

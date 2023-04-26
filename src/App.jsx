@@ -1,5 +1,5 @@
 import "./App.css";
-import Album from "./Album";
+import Album from "./Albums/Album";
 
 const albums = [
   {

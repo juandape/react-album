@@ -1,4 +1,5 @@
 import "./album.css";
+import Like from "./heart";
 
 const Album = (props) => {
   const { albumCover, artistName, group, songTl, songYear, genre } = props;
@@ -19,7 +20,9 @@ const Album = (props) => {
         </div>
         <div className="album__genero">
           <div className="album__genero--name">{genre}</div>
-          <div className="album__genero--heart"></div>
+          <div className= "album__genero--heart">
+          <Like />
+          </div>
         </div>
       </div>
     </div>

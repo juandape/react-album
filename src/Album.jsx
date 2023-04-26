@@ -12,7 +12,7 @@ const Album = (props) => {
       <div className="album__info">
         <div className="album__artist">
           <h1>{artistName}</h1>
-          <p className="album__artist--single">{group}</p>
+          <p className="album__artist--group">{group}</p>
         </div>
         <div className="album__titulo">
           <h3>{songTl}</h3>

@@ -20,8 +20,8 @@ const Album = (props) => {
         </div>
         <div className="album__genero">
           <div className="album__genero--name">{genre}</div>
-          <div className= "album__genero--heart">
-          <Like />
+          <div className="album__genero--heart">
+            <Like />
           </div>
         </div>
       </div>

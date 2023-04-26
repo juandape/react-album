@@ -12,8 +12,7 @@ const albums = [
     genre: "dance",
   },
   {
-    albumCover:
-      "https://cdn.worldvectorlogo.com/logos/aerosmith-1.svg",
+    albumCover: "https://cdn.worldvectorlogo.com/logos/aerosmith-1.svg",
     artistName: "Aerosmith",
     group: "band",
     songTl: "I don´t wanna miss a thing",

@@ -10,4 +10,4 @@ function Like() {
   );
 }
 
-export default Like
+export default Like;

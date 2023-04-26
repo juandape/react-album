@@ -1,5 +1,5 @@
 import "./album.css";
-import Like from "../heart";
+import Like from "./heart";
 
 const Album = (props) => {
   const { albumCover, artistName, group, songTl, songYear, genre } = props;

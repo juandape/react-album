@@ -9,17 +9,17 @@ const Album = (props) => {
         <img src={albumCover} />
       </div>
       <div className="album__info">
-        <div className="artist">
+        <div className="album__artist">
           <h1>{artistName}</h1>
-          <p className="artist--single">{group}</p>
+          <p className="album__artist--single">{group}</p>
         </div>
-        <div className="titulo">
+        <div className="album__titulo">
           <h3>{songTl}</h3>
-          <h3 className="titulo--age">{songYear}</h3>
+          <h3 className="album__titulo--age">{songYear}</h3>
         </div>
-        <div className="genero">
-          <div className="genero--name">{genre}</div>
-          <div className="genero--heart"></div>
+        <div className="album__genero">
+          <div className="album__genero--name">{genre}</div>
+          <div className="album__genero--heart"></div>
         </div>
       </div>
     </div>

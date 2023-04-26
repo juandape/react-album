@@ -10,7 +10,7 @@
 }
 
 .genero--heart {
-    background-color: red;
+    background-color: rgb(215, 205, 205);
     /* display: inline-block; */
     height: 20px;
     margin-top: 8px;
@@ -24,7 +24,7 @@
   .genero--heart:before,
   .genero--heart:after {
     content: "";
-    background-color: red;
+    background-color: rgb(215, 205, 205);
     border-radius: 50%;
     height: 20px;
     position: absolute;

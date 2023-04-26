@@ -5,7 +5,7 @@
 create an Album component using React
 
 ## Screenshot
-![print screen](./assets/print-screen.png)
+![print screen](./src/assets/print-screen.png)
 ## My process
 ### Built with
 - Semantic markup using vscode editor

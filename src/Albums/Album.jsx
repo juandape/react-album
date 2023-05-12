@@ -1,5 +1,6 @@
 import "./album.css";
 import Like from "./heart";
+import PropTypes from "prop-types";
 
 const Album = (props) => {
   const { albumCover, artistName, group, songTl, songYear, genre } = props;
@@ -30,3 +31,12 @@ const Album = (props) => {
 };
 
 export default Album;
+
+Album.propTypes = {
+  albumCover: PropTypes.string.isRequired,
+  artistName: PropTypes.string.isRequired,
+  group: PropTypes.string.isRequired,
+  songTl: PropTypes.string.isRequired,
+  songYear: PropTypes.string.isRequired,
+  genre: PropTypes.string.isRequired,
+}

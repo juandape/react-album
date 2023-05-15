@@ -5,7 +5,7 @@
 create an Album component using React
 
 ## Vercel page
-[https://react-album-bay.vercel.app/]
+https://react-album-bay.vercel.app/
 
 ## Screenshot
 ![print screen](./src/assets/print-screen.png)
